@@ -152,6 +152,9 @@ shift+g	: bottom of file
 :15	: to go to line 15
 :set number: print lines inside the file
 
+
+
+find . -name file1      :to find the file
 ===========================================================================================================
 
 HARDWARE:
