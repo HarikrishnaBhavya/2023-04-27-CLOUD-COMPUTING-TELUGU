@@ -155,6 +155,14 @@ shift+g	: bottom of file
 
 
 find . -name file1      :to find the file
+
+
+head -n -1 file_name               : all records except last record
+tail -n +2 file_name               : all records except first record
+head -n -1 file_name | tail -n +2  : middle records except first and last record
+
+
+
 ===========================================================================================================
 
 HARDWARE:
@@ -290,7 +298,7 @@ sed '3c/abc/' file1  -- > to replce 3rd line in a file
 sed 's/linux/unix/' file1-- > single word replace
 sed 's/linux/unix/; s/session/class/' file1 -- > multi word replace
 cat file1 -n -- > to print line numbers in a file
-sed '=' file1 -- > to print line numbers in a file
+sed '=' file1 -- > to print line numbers in a file ****************************************************
 sed -n '5,13p' file1 -- > to print line 5 to 13
 sed -e '5,13p' file1 -- > to print line 5 to 13 double times
 
