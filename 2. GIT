@@ -1,7 +1,7 @@
 
 CTRL+R  -------------> TO get the previous used commands 
 
-
+git branch --delete <branchname>
 
 
 
