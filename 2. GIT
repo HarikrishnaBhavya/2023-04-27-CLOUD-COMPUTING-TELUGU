@@ -230,9 +230,11 @@ git cherry-pick commit-id
 
 STATSH: To hide the un committed files/to save the work temperorly
 git stash	: to hide the tracked files
-git stash apply	: it will show the hidede file
+git stash save stash-name - to add the file or files in stash list
 git stash list	: it shows the list of stashes
+git stash apply	: it will show the hidede file
 git stash pop	: remove last stash
+git stash pop stash_id	: remove particular stash
 git statsh clear: remove all the stashes
 
 PUSH: to send files from local to central repo
