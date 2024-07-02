@@ -272,6 +272,9 @@ userdel raham : to delete raham user
 
 DAY-05:
 
+AWK command:
+
+awk '{print $1,$4}' employee.txt
 
 GREP : Global Regular Expression Print
 to search for a particular word
