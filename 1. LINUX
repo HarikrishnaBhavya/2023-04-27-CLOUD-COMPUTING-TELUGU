@@ -100,7 +100,7 @@ tail file2	: to print bottom 10 lines
 tail -7 file2	: to print bottom 7 lines
 tail -5 file2	: to print bottom 5 lines
 sed -n '6,16p' file2 : to print form line numbers 6 to 16
-awk '{print $1,$4}' employee.txt
+awk '{print $1,$4}' employee.txt  : to print the column 1 and 4
 
 FOLDERS = DIRECTORIES
 
