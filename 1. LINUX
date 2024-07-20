@@ -159,7 +159,7 @@ find . -name file1      :to find the file
 
 
 head -n -1 file_name               : all records except last record
-tail -n +2 file_name               : all records except first record
+tail -n +2 file_name               : all records except first record    (ikkada +2 ante rows lo +1 vadhu +2 nunchi teesuko ani)
 head -n -1 file_name | tail -n +2  : middle records except first and last record
 
 
