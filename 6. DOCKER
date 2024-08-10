@@ -16,8 +16,13 @@ containerization is OS level
 
 INSTALL:
 yum install docker -y
-service start docker
-service status docker
+service  docker start
+service docker status
+
+(or)
+
+systemcyl start docker
+systemctl status docker
 
 
 COMMANDS:
