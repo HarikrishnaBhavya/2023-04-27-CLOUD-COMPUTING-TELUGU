@@ -21,7 +21,7 @@ service docker status
 
 (or)
 
-systemcyl start docker
+systemctl start docker
 systemctl status docker
 
 
