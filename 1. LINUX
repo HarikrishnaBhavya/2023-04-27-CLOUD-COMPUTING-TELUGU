@@ -269,6 +269,16 @@ usermod -aG aws raham : to add raham user to aws group
 gpasswd --delete raham devops : to remove raham user form devops group
 userdel raham : to delete raham user
 
+
+3. Use a specific history number
+To run a specific command from history:
+
+!<number>
+
+Example:
+
+!103
+
 =======================================================================================================
 
 DAY-05:
