@@ -279,6 +279,12 @@ Example:
 
 !103
 
+
+2. Using adduser (interactive, user-friendly)
+
+sudo adduser <username>
+Example:
+sudo adduser harikrishna
 =======================================================================================================
 
 DAY-05:
