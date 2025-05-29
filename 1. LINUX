@@ -285,6 +285,23 @@ Example:
 sudo adduser <username>
 Example:
 sudo adduser harikrishna
+
+
+
+
+| Command      | Purpose                    |
+| ------------ | -------------------------- |
+| `ip a`       | Show IP addresses          |
+| `ping`       | Check network connectivity |
+| `nslookup`   | DNS query                  |
+| `dig`        | Detailed DNS info          |
+| `traceroute` | Trace network path         |
+| `netstat`    | Network connections        |
+| `ss`         | Modern socket statistics   |
+| `curl`       | Get URL content            |
+| `wget`       | Download files             |
+| `telnet/nc`  | Test open ports            |
+
 =======================================================================================================
 
 DAY-05:
